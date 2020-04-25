@@ -7,6 +7,8 @@
 - [Introduccion](https://www.youtube.com/watch?v=6jeCUFNv0XI&t=952s)
 
 **Es un 'Orquestador'**
+
+
 Permite definir la manera en la que se van a levantar y comunicar los diferentes Pods (unidad minima, compuesta por 1 o muchos containers de Docker, por ej)
 
 - Las instrucciones se definen en archivos yaml
