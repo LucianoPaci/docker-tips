@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-website-pod
+  labels:
+    name: nginx-website
+spec:
+  containers:
+    - name: nginx-website
+      image: paciluciano/nginx-website:1.0
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
+      ports:
+        - containerPort: 8080
